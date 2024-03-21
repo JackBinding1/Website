@@ -1,11 +1,10 @@
-
  <!--
 -----------------------------------------------------------------------------------------------------------
--- Program  : index.HTML
+-- Program  : Running.HTML
 -- Language : HTML
 -- Author   : Jack Binding
--- Date     : 18/03/2024
--- Purpose  : Index / Home page
+-- Date     : 21/03/2024
+-- Purpose  : Document Running journey
 ----------------------------------------------------------------------------------------------------------
 -- Version History:
 -- Date      Developer      Change Details
@@ -13,63 +12,51 @@
 -- 
 ----------------------------------------------------------------------------------------------------------
 
-This home page is to mirror the home file
-purpose being the URL now says "Home" rather than "Index"..
-I suspect a better way of doing this but this will do for now
+Still not entirely sure how best to format or lay this out. But we'll see how we get on.
 
  -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jack Binding</title>
-    <!-- link to the css folder and the css for homepage -->
+    <title>Jack Binding - Running</title>
+      <!-- link to the css folder and the css for homepage -->
     <link rel="stylesheet" href="./CSS/Homepage.css">
-    <style>
-    </style>
 </head>
 <body>
+
     <header>
         <h1>Jack Binding</h1>
         <nav>
             <ul>
-               <!-- <li><a href="#">Home</a></li> we are already here-->
-                    <li><a href="./SQL">SQL</a></li>
-                <li><a href="./Running">Running</a></li> <!-- this to link to running blog -->
+                <li><a href="./Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <!--<li><a href="#">Running</a></li>  this to link to running blog (on that page here, so no need) -->
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <main>
-            
-        <section>
-            <center>
-            <h2>About</h2>
-            <p>
-		    
-             After a pretty unsuccesful departure from school, with 1 GCSE under my belt and findng myself working in a warehouse between the ages of 17 and 24.
-		    <br> I fell into running at some point during my early 20's due to some friends trying interval training.<br>
-		    That same year I ran my first half marathon and returned to college to re-do my GCSEs.
-		    <br> This eventually led me to study a degree in Mathematics and to try my hand a range of sports. 
-		    <br> Here I will document things I find interesting from my day job as a Senior Analytics Engineer at a marketing and risk consultancy agency and sport related things I am up to.
-		    <br> This may also include various odd things and some talks of Wainwrights.
-		    
-		
-              </p>
-            </center>
-        </section>
 
-        <section>
-            <h2>Section 2</h2>
-            <p>This is the content of section 2.</p>
-        </section>
-    </main>
+	  <title>Text Wrapping Around Image Example</title>
+    <style>
+        .image-wrapper {
+            float: left; /* Float the image to the left */
+            margin-right: 20px; /* Provide some space between the image and text */
+        }
+    </style>
+</head>
+<body>
 
-    <footer>
-        <p>&copy; 2024 Jack Binding. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+<div class="image-wrapper">
+    <img src="./Pictures/First5k2024.png" alt="Description of the image">
+</div>
+
+<p>This is a paragraph of text with an image floated to the left. The text will wrap around the image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo orci vel libero accumsan euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis at augue eget justo aliquam porttitor.</p>
+    <p>
+      First 5k of 2024..
+        <img src="./Pictures/First5k2024.png" alt="First 5k of 2024" width="300" 
+     height="500"/>
+     
+    </p>
+    <body/>
