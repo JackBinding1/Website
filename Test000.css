@@ -1,0 +1,17 @@
+body {
+  background-image: url("../Pictures/Black&WhiteLakes.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-attachment: fixed;
+  
+  height: 300vh;
+}
+
+.cover {
+  background-color: aqua;
+  height: 50vh;
+  margin-top: 90vh;
+  padding: 20px;
+}
