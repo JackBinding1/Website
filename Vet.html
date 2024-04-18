@@ -13,6 +13,9 @@
        
 <label for="Weight">Weight (kg):</label>
 <input type="text" id="Weight"><br><br>
+
+<label for="tpd">Frequency per day</label>
+<input type="text" id="tpd"><br><br>
        
 <button onclick="calculateProd()">Calculate TEST</button><br><br>
 <p id="result"></p>
@@ -25,8 +28,11 @@
        function calculateProd() {
            var num1 = parseFloat(document.getElementById('Dosage').value);
            var num2 = parseFloat(document.getElementById('Weight').value);
-           var prod = num1 * num2;
-           document.getElementById('result').innerText = 'The mg/day is: ' + prod;
+           var num3 = parseFloat(document.getElementById('tpd').value);
+              
+           var calc1 = num1 * num2;
+           var calc2 = calc1 / num3
+           document.getElementById('result').innerText = 'The mg per dose is: ' + calcn;
        }
 </script>
 </body>
