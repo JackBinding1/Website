@@ -3,22 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sum Calculator</title>
+<title>Vet Calculator</title>
 </head>
 <body>
-<h1>Sum Calculator</h1>
-<label for="num1">Enter first number:</label>
-<input type="text" id="num1"><br><br>
-<label for="num2">Enter second number:</label>
-<input type="text" id="num2"><br><br>
-<button onclick="calculateSum()">Calculate Sum</button><br><br>
+<h1>Vet Calculator</h1>
+<p> Work in progress vet calculator, a current simple multiplication..</p>
+<label for="Dosage">Dosage (mg/kg):</label>
+<input type="text" id="Dosage"><br><br>
+       
+<label for="Weight">Weight (kg):</label>
+<input type="text" id="Weight"><br><br>
+       
+<button onclick="calculateProd()">Calculate TEST</button><br><br>
 <p id="result"></p>
 <script>
-       function calculateSum() {
-           var num1 = parseFloat(document.getElementById('num1').value);
-           var num2 = parseFloat(document.getElementById('num2').value);
-           var sum = num1 + num2;
-           document.getElementById('result').innerText = 'The sum is: ' + sum;
+       function calculateProd() {
+           var num1 = parseFloat(document.getElementById('Dosage').value);
+           var num2 = parseFloat(document.getElementById('Weight').value);
+           var prod = num1 * num2;
+           document.getElementById('result').innerText = 'The mg/day is: ' + prod;
        }
 </script>
 </body>
