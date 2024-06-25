@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('../../Pictures/LD.jpg') no-repeat center center fixed;
+    background: url('../Pictures/LD.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white; /* Ensure text is visible against the background */
 }
