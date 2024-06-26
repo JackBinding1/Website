@@ -1,71 +1,56 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* Homepage.css */
 
-/* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f7f7f7; //light grey background
-    color: #FFFFFF; //white colour
+    margin: 0;
+    padding: 0;
+    <!-- 
+    background: url('../Pictures/LD.jpg') no-repeat center center fixed;
+    background-size: cover; -->
+    color: white; /* Ensure text is visible against the background */
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-/* Header Styles */
 header {
-    background: #5D66CD; //Navy colour
-    color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    text-align: center;
 }
 
 header h1 {
-    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
 }
 
 nav ul {
     list-style: none;
-    text-align: center;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
     text-decoration: none;
+    color: white;
+    font-size: 1.2em;
 }
 
-/* Main Content Styles */
 main {
-    padding: 20px 0;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-section h2 {
-    margin-bottom: 10px;
-}
-
-/* Footer Styles */
-footer {
-    background: #333;
-    color: #fff;
+    padding: 20px;
     text-align: center;
-    padding: 10px 0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+footer p {
+    margin: 0;
 }
